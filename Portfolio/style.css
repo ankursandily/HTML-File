@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navigation{
+    display: flex;
+    justify-content: end;
+    column-gap: 36px;
+    list-style: none;
+    padding: 50px 100px;
+    
+}
+.navigation a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    column-gap: 120px;
+    padding: 70px 140px;
+   
+}
+.textwrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+}
+.textwrapper h1{
+    font-family: Heebo;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.textwrapper p{
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.textwrapper button{
+    width: 208px;
+    height: 47px;
+    top: 477px;
+    left: 148px;
+    border-radius: 2px;
+    background-color: #FF6464;
+    border: none;
+    cursor: pointer;
+}
+
+.section2{
+    background-color:  #EDF7FA;
+    height: 350px;
+}
+.section2 .recentAndView{
+   display: flex;
+   justify-content: space-between;
+  
+  
+}
+.section2 .recentAndView h3{
+    margin-left: 400px;
+    font-weight:400 ;
+    font-size: 25px;
+    margin-top: 30px;
+    
+}
+.section2 .recentAndView p{
+    margin-right: 400px;
+    margin-top:25px;
+    font-size: 20px;
+    color: #00A8CC;
+    
+
+}
+.section2 .cardWrapper{
+    display: flex;
+    margin-left: 240px;
+    padding: 50px 100px;
+
+}
+
+.section2 .cardWrapper .card1{
+    width: 420px;
+    background-color: white;
+    margin-right: 10px;
+    padding: 10px;
+    margin-left: 100px;
+    row-gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.section2 .cardWrapper .card2{
+    width: 420px;
+    background-color: white;
+    margin-right: 40px;
+    padding: 10px;
+    margin-left:100px; 
+    row-gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section3{ 
+    padding: 0px 140px;
+    align-items: center;
+}
+.section3 .feature{
+    font-family: Heebo;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.wrapContainer .wraptext{
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+    font-weight: 400;
+}
+.wrapContainer{
+    display: flex;
+    column-gap: 18px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 15px;
+    margin: 30px ;
+}
+.section4{
+    text-align: center;
+    height: 100px;
+    gap: 20px;
+}
+.logo{
+    margin: 20px;
+}
+.logo span{
+    margin-right: 20px;
+}

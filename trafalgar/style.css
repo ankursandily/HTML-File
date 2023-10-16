@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    column-gap: 10px;
+}
+.logo .logo-bg{
+    width: 41px;
+    height: 41px;
+    background-color: #458ff6;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: muli;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+.logo .logo-text{
+    display: flex;
+    font-family: Muli;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.nav-link{
+    display: flex;
+    column-gap: 40px;
+}
+.nav-link div{
+    font-family: Muli;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.hero-section{
+    display: flex;
+    column-gap: 110px;
+    justify-content: space-around;
+}
+.hero-section .hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.hero-text div:nth-of-type(1){
+    font-family: muli;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+}
+.hero-text div:nth-of-type(2){
+    font-family: muli;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    margin: 25px 0px 45px;
+}
+.hero-text div button{
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    background: #458ff6;
+    font-family: muli;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    border: none;
+    color: white;
+}
+.section-3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+    align-items: center;
+}
+.section-3 div:nth-of-type(1){
+    font-family: muli;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.section-3 div:nth-of-type(3){
+    font-family: muli;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.main-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px 34px;
+    padding: 72px 240px;
+    
+}
+
+.main-card .card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 54px 45px 46px 39px;
+    width:370px;
+    row-gap: 20px;
+    
+}
+.card div:nth-of-type(2){
+    font-family: muli;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.card div:nth-of-type(3){
+    font-family: muli;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.card-button{
+    display: flex;
+    justify-content: center;
+}
+.card-button button{
+    width:200px;
+    height: 60px;
+    border-radius: 55px;
+    border: 1.4px solid #458ff6;
+    color: #458ff6;
+}
+/* section */
+.section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 230px;
+    padding: 220px 150px;
+}
+.section-4 .section-4-sub1{
+    display: flex;
+    padding: 50px 100px;
+    column-gap: 140px;
+    align-items: center;
+}
+.section-4 .sub-1-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 32px;
+}
+.sub-1-text div:nth-of-type(1){
+    font-family: muli;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+/* section */
+.section-5-sub1{
+    display: flex;
+    padding: 50px 100px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #458ff6;  
+}
+.bg-image-name{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.bg-image-name img  {
+    border-radius: 50%;
+    
+
+}
+.section-5 div:nth-of-type(1){
+    font-family: muli;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.section-5 div:nth-of-type(2){
+    font-family: muli;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
